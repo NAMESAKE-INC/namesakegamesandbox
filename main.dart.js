@@ -100613,31 +100613,32 @@ A.L9.prototype={
 J(a){var s=A.eA(a,!0,t.T6),r=this.d.length,q=s.d.length
 return A.bC(A.b([A.bj(A.aie(B.p,new A.aDY(this,s),r,B.xE,!0),370*(r/q),null)],t.p),B.o,B.t,B.l,0)}}
 A.aDY.prototype={
-$2(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="assets/Face_Grey.svg",e=this.a,d=e.d[a1],c=e.c,b=this.b,a=(c?b.r:b.w)===d
+$2(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e=this.a,d=e.d[a1],c=e.c,b=this.b,a=(c?b.r:b.w)===d
 if(a)s=B.ky
 else s=B.kJ
 if(a)r=B.f_
 else r=B.oR
-q=c?"Left":"Right"
-p=d.c
-o=p.length===0
-n=o?d.d:p
-m=a?"unselect.":"select."
-l=a?1.05:1
-k=A.h3(new A.aDW(B.JH,s))
-j=a?3:0.01
-j=A.TH(g,g,s,g,g,g,g,g,g,B.Ym,g,g,g,k,B.LV,g,new A.d5(A.hY(30),B.m),new A.aU(r,j,B.z,-1),g,g,g,g)
-e=!b.z?g:new A.aDX(e,b,d)
+q=a?"assets/Face_Yellow.svg":"assets/Face_Grey.svg"
+p=c?"Left":"Right"
+o=d.c
+n=o.length===0
+m=n?d.d:o
+l=a?"unselect.":"select."
+k=a?1.05:1
+j=A.h3(new A.aDW(B.JH,s))
+i=a?3:0.01
+i=A.TH(f,f,s,f,f,f,f,f,f,B.Ym,f,f,f,j,B.LV,f,new A.d5(A.hY(30),B.m),new A.aU(r,i,B.z,-1),f,f,f,f)
+e=!b.z?f:new A.aDX(e,b,d)
 b=c?B.cA:B.t
-k=A.b([],t.p)
-if(!c)k.push(A.kV(f,B.bG,25,g))
-i=c?0:10
-h=c?10:0
-if(o)p=d.d
-o=c?B.dI:B.cH
-k.push(A.t8(new A.an(new A.a1(i,0,h,0),new A.Ct(p,A.ak(g,g,B.dh,g,g,g,g,g,g,g,g,15,g,g,B.r,g,g,!0,g,g,g,g,g,g,g,g),7,o,2,g),g),1))
-if(c)k.push(A.kV(f,B.bG,25,g))
-return new A.an(B.l9,A.bR(!0,A.aNh(A.TG(A.bt(k,B.o,b,B.l,0),e,j),B.a1,B.X,l),!1,g,!0,!1,!1,g,g,g,"Tap to "+m,g,g,g,g,q+" clue: "+n,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,B.C,g),g)},
+j=A.b([],t.p)
+if(!c)j.push(A.kV(q,B.bG,25,f))
+h=c?0:10
+g=c?10:0
+if(n)o=d.d
+n=c?B.dI:B.cH
+j.push(A.t8(new A.an(new A.a1(h,0,g,0),new A.Ct(o,A.ak(f,f,B.dh,f,f,f,f,f,f,f,f,15,f,f,B.r,f,f,!0,f,f,f,f,f,f,f,f),7,n,2,f),f),1))
+if(c)j.push(A.kV(q,B.bG,25,f))
+return new A.an(B.l9,A.bR(!0,A.aNh(A.TG(A.bt(j,B.o,b,B.l,0),e,i),B.a1,B.X,k),!1,f,!0,!1,!1,f,f,f,"Tap to "+l,f,f,f,f,p+" clue: "+m,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.C,f),f)},
 $S:108}
 A.aDW.prototype={
 $1(a){if(a.q(0,B.D))return this.a
