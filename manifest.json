@@ -1,7 +1,7 @@
 {
     "name": "Namesake",
     "short_name": "Namesake",
-    "start_url": "https://www.namesakegame.com",
+    "start_url": "https://www.namesake-inc.github.io/namesakegamesandbox",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#7aa47c",

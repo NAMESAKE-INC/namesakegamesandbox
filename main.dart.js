@@ -101140,8 +101140,8 @@ case 2:return A.B(null,r)}})
 return A.C($async$$0,r)},
 $S:11}
 A.zm.prototype={
-ai(){var s=null,r="https"
-return new A.a3T(A.Rv(!0,s,!1),A.k5(s,"www.facebook.com",s,s,s,r),A.k5(s,"www.instagram.com",s,s,s,r),A.k5(s,"www.ko-fi.com","namesakegame",s,s,r),A.k5(s,"www.twitter.com",s,s,s,r))},
+ai(){var s=null,r="https",q="namesakegame"
+return new A.a3T(A.Rv(!0,s,!1),A.k5(s,"www.facebook.com",q,s,s,r),A.k5(s,"www.instagram.com","namesake.game",s,s,r),A.k5(s,"www.ko-fi.com",q,s,s,r),A.k5(s,"www.x.com",q,s,s,r))},
 a3h(){return this.d.$0()}}
 A.a3T.prototype={
 aI(a){this.b2(a)
