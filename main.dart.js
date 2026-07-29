@@ -100242,7 +100242,7 @@ if(a0.ay.c.b<A.fa(new A.b8(Date.now(),0,!1)))a2.push(A.b0(A.Ed(B.Nb,B.MR,B.a3C,n
 a.push(new A.aj(B.q0,A.bt(a2,B.m,B.af,B.k,8),a1))}if(a0.ay.c.b===A.fa(new A.b8(Date.now(),0,!1)))a.push(new A.aj(B.q0,new A.I8(new A.aDi(a0),A.b9b(B.cZ,t.z),a1,t.wu),a1))
 a2=A.aq("More games available in our ",a1,a1,a1,a1,a1,a1,a1,A.at(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.u,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1,a1)
 a.push(new A.aj(new A.X(0,12,0,0),A.bk(A.b([a2,A.jV(A.aq("ARCHIVE",a1,a1,a1,a1,a1,a1,a1,A.at(a1,a1,B.r,a1,a1,a1,a1,a1,a1,a1,a1,14,a1,a1,B.u,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1,a1),a1,new A.aDa(a0),a1)],c),B.m,B.q,B.k,0),a1))
-return A.bu(a1,A.bu(a1,A.bu(a1,A.nZ(A.b0(A.bk(A.b([A.bt(A.b([A.bk(a,B.m,B.af,B.k,0)],c),B.m,B.af,B.k,0)],c),B.m,B.af,B.k,0),700,a1)),B.p,k,a1,a1,a1,a4,a1,a1,a1,a1,a3),B.p,B.h,a1,a1,a1,a4,a1,a1,a1,a1,a3),B.p,B.h,a1,a1,a1,a4,a1,a1,a1,a1,a3)},
+return A.bu(a1,A.bu(a1,A.bu(a1,A.nZ(A.b0(A.bk(A.b([A.bt(A.b([A.bk(a,B.m,B.af,B.k,0)],c),B.m,B.af,B.k,0)],c),B.m,B.af,B.k,0),800,a1)),B.p,k,a1,a1,a1,a4,a1,a1,a1,a1,a3),B.p,B.h,a1,a1,a1,a4,a1,a1,a1,a1,a3),B.p,B.h,a1,a1,a1,a4,a1,a1,a1,a1,a3)},
 a3C(a,b,c){var s,r,q,p,o,n,m,l=null,k=this.c
 k.toString
 s=A.el(k,!0,t.T6)
@@ -100635,11 +100635,11 @@ r=A.TJ(n,n,B.hz,n,n,n,n,n,n,n,n,n,n,n,B.q2,n,new A.di(A.fM(30),B.o),new A.aT(B.f
 l=l.d/2-86
 q=j.c
 if(q.length===0)q=j.d
-q=A.b0(A.OW(q,2,9,A.at(n,n,B.bZ,n,n,n,n,n,n,n,n,15,n,n,B.u,n,n,!0,n,n,n,n,n,n,n,n),B.cM),n,l)
+q=A.b0(A.OW(q,2,9,A.at(n,n,B.bZ,n,n,n,n,n,n,n,n,15,n,n,B.u,n,n,!0,n,n,n,n,n,n,n,n),B.cM),25,l)
 p=i.c
 if(p.length===0)p=i.d
 o=t.p
-return new A.aj(B.l9,A.bX(!0,A.TI(A.cz(B.aj,A.b([new A.aj(new A.X(10,0,10,0),A.cz(B.aj,A.b([q,A.bt(A.b([new A.dj(n),A.b0(A.OW(p,2,9,A.at(n,n,B.bZ,n,n,n,n,n,n,n,n,15,n,n,B.u,n,n,!0,n,n,n,n,n,n,n,n),B.c6),n,l)],o),B.m,B.q,B.k,0)],o),B.y,B.Y),n),A.bt(A.b([A.jT(m,B.bA,25,n),A.jT(m,B.bA,25,n)],o),B.m,B.af,B.k,35)],o),B.y,B.Y),n,r),!1,n,!0,!1,!1,n,n,n,n,n,n,n,n,"Correct guess: "+k+" and "+s,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.F,n),n)},
+return new A.aj(B.l9,A.bX(!0,A.TI(A.cz(B.aj,A.b([new A.aj(new A.X(10,0,10,0),A.cz(B.aj,A.b([q,A.bt(A.b([new A.dj(n),A.b0(A.OW(p,2,9,A.at(n,n,B.bZ,n,n,n,n,n,n,n,n,15,n,n,B.u,n,n,!0,n,n,n,n,n,n,n,n),B.c6),25,l)],o),B.m,B.q,B.k,0)],o),B.y,B.Y),n),A.bt(A.b([A.jT(m,B.bA,25,n),A.jT(m,B.bA,25,n)],o),B.m,B.af,B.k,35)],o),B.y,B.Y),n,r),!1,n,!0,!1,!1,n,n,n,n,n,n,n,n,"Correct guess: "+k+" and "+s,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.F,n),n)},
 $S:108}
 A.a5w.prototype={
 J(a){var s=null,r=A.el(a,!0,t.T6),q=A.el(a,!1,t.l),p=this.c.length,o=r.d.length
@@ -100663,10 +100663,10 @@ i=j?c.d:k
 h=A.TJ(g,g,r,g,g,g,g,g,g,g,g,g,g,g,B.q2,g,new A.di(A.fM(30),B.o),new A.aT(q,3,B.B,-1),g,g,g,g)
 f=f.d/2-86
 if(m)n=d.d
-n=A.b0(A.OW(n,2,9,A.at(g,g,B.bZ,g,g,g,g,g,g,g,g,15,g,g,B.u,g,g,!0,g,g,g,g,g,g,g,g),B.cM),g,f)
+n=A.b0(A.OW(n,2,9,A.at(g,g,B.bZ,g,g,g,g,g,g,g,g,15,g,g,B.u,g,g,!0,g,g,g,g,g,g,g,g),B.cM),25,f)
 m=j?c.d:k
 k=t.p
-h=A.TI(A.cz(B.aj,A.b([new A.aj(new A.X(10,0,10,0),A.cz(B.aj,A.b([n,A.bt(A.b([new A.dj(g),A.b0(A.OW(m,2,9,A.at(g,g,B.bZ,g,g,g,g,g,g,g,g,15,g,g,B.u,g,g,!0,g,g,g,g,g,g,g,g),B.c6),g,f)],k),B.m,B.q,B.k,0)],k),B.y,B.Y),g),A.bt(A.b([A.jT(p,B.bA,25,g),A.jT(p,B.bA,25,g)],k),B.m,B.af,B.k,35)],k),B.y,B.Y),g,h)
+h=A.TI(A.cz(B.aj,A.b([new A.aj(new A.X(10,0,10,0),A.cz(B.aj,A.b([n,A.bt(A.b([new A.dj(g),A.b0(A.OW(m,2,9,A.at(g,g,B.bZ,g,g,g,g,g,g,g,g,15,g,g,B.u,g,g,!0,g,g,g,g,g,g,g,g),B.c6),25,f)],k),B.m,B.q,B.k,0)],k),B.y,B.Y),g),A.bt(A.b([A.jT(p,B.bA,25,g),A.jT(p,B.bA,25,g)],k),B.m,B.af,B.k,35)],k),B.y,B.Y),g,h)
 f=A.b([],k)
 n=!s
 if(n){m=A.TJ(g,g,B.h,g,g,g,g,g,g,g,g,g,B.I,g,B.i1,g,new A.dS(0,B.o),new A.aT(B.oV,2,B.B,-1),g,B.fJ,g,g)
