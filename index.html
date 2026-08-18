@@ -530,12 +530,37 @@
 
           // Dispatched by the Flutter web engine on `window` once the first
           // frame has been rasterized, regardless of renderer.
+          var firstFrameSeen = false;
           window.addEventListener('flutter-first-frame', function () {
+            firstFrameSeen = true;
             window.__namesakeHideLoading();
           });
+
+          // Watchdog: nothing above catches "the first frame simply never
+          // arrived". The engine bundle or the Firebase SDK from gstatic can
+          // be blocked or stalled by carrier proxies, content blockers and
+          // captive portals, in which case this overlay would otherwise
+          // animate forever with no way forward. Offer the reload UI instead.
+          var FIRST_FRAME_TIMEOUT_MS = 20000;
+          setTimeout(function () {
+            if (firstFrameSeen) return;
+
+            // Only complain when the engine was actually expected to boot.
+            // The production page is sometimes served with
+            // flutter_bootstrap.js commented out to hold the loading screen
+            // on purpose; that is not an error. Checked here rather than up
+            // front because the bootstrap tag is parsed after this script.
+            if (!document.querySelector('script[src*="flutter_bootstrap.js"]')) {
+              return;
+            }
+
+            console.error('Namesake: no first frame after ' +
+              FIRST_FRAME_TIMEOUT_MS + 'ms -- showing reload UI.');
+            window.__namesakeShowError();
+          }, FIRST_FRAME_TIMEOUT_MS);
         })();
       </script>
-        <script src="flutter_bootstrap.js?version=202608131520" async></script>
+        <script src="flutter_bootstrap.js?version=202608180023" async></script>
     </div>
   </div>
   <!--<script type="text/javascript"> 
