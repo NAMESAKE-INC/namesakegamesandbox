@@ -95149,7 +95149,7 @@ var $async$ou=A.F(function(a,b){if(a===1)return A.G(b,r)
 for(;;)switch(s){case 0:g=q.a.c
 if(g==null)g=B.c.dO(q.e.a.a)
 p=$.aGl()
-if(!p.b.test(g))throw A.f("Slug must be 2-40 characters: lower-case letters, digits, _ or -")
+if(!p.b.test(g))throw A.f("The link name must be 2-40 characters: lower-case letters, numbers, _ or -")
 o=B.c.dO(q.f.a.a)
 if(o.length===0)throw A.f("A promo needs a title")
 p=$.bo
@@ -95160,7 +95160,7 @@ l=m.dL("promoGames").e4(g)
 s=2
 return A.C(l.e0(),$async$ou)
 case 2:k=b
-if(q.a.c==null&&k.gK7())throw A.f('A promo with the slug "'+g+'" already exists')
+if(q.a.c==null&&k.gK7())throw A.f('Another promo already uses the link name "'+g+'"')
 p=q.as
 p.a=0
 p.r=g
@@ -95327,9 +95327,9 @@ if(l)m=B.c.dO(o.e.a.a)
 s=$.aGl()
 r=s.b.test(m)
 s=A.fl(o.f,B.I7,n,1,n,n,n)
-q=l?"Lower-case letters, digits, _ or -":"Fixed: player progress and stats are keyed by it"
+q=l?"The end of the promo's web link, e.g. james_bond makes namesakegame.com/?promo=james_bond. Lower-case letters, numbers, _ or -. Can't be changed later.":"Can't be changed: the link may already be shared, and player progress and stats depend on it."
 p=t.p
-q=A.b([s,B.bR,A.fl(o.e,A.aaH(n,n,n,n,n,n,n,n,!0,n,n,n,n,n,l&&m.length!==0&&!r?"Use 2-40 lower-case letters, digits, _ or -":n,n,n,n,n,n,n,n,n,n,n,n,q,n,n,n,n,n,n,n,n,n,n,n,n,n,"Slug (used in the link; cannot change after creation)",!0,!0,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n),l,1,n,new A.asP(o),n),B.bR],p)
+q=A.b([s,B.bR,A.fl(o.e,A.aaH(n,n,n,n,n,n,n,n,!0,n,n,n,n,n,l&&m.length!==0&&!r?"Use 2-40 lower-case letters, numbers, _ or -":n,n,n,n,n,n,n,n,n,n,3,n,q,n,n,n,n,n,n,n,n,n,n,n,n,n,"Link name",!0,!0,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n),l,1,n,new A.asP(o),n),B.bR],p)
 if(r)q.push(A.bQ(A.b([A.pC(new A.DA(B.c.iD(A.rF().gl1(),"github.io")?u.Q+m:"https://namesakegame.com/?promo="+m,B.fD,n),1),A.NK(n,n,B.HA,n,n,new A.asQ(o,m),n,n,"Copy link")],p),B.u,B.p,B.q,0))
 q.push(new A.RA(o.r,new A.asR(o),B.Xv,B.XC,B.ar,n))
 return A.cy(q,B.ay,B.p,B.q,0)},
